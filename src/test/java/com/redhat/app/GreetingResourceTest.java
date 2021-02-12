@@ -17,6 +17,6 @@ public class GreetingResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("hello Davivienda OCP k8s Modules!!!"));
+             .body(is("hello Davivienda OCP & VM!!!"));
     }
 }
